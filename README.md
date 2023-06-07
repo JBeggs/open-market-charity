@@ -1,6 +1,6 @@
 ## About Laravel Open Market Charity
 
-(Models are nameed wrong, started working on Product Cart: But charity was a better suite)
+(Models are named wrong, started working on Product Cart: But charity was a better suite)
 
 ### Word of advice on updating user, password is username on Guest accounts
 
@@ -31,7 +31,7 @@ Commands needed to get the applications to run
 ##### email    : admin@micropythonsolutions.co.za
 ##### password : password
 
-### Setup the database and seed some data for the front end
+### Install the database and seed some data for the front end
 
     php artisan migrate
     php artisan db:seed
