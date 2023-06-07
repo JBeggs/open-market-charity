@@ -39,11 +39,13 @@ Commands needed to get the applications to run
 ### Install npm and run dev
 
     npm install && npm run dev
-    php sertisan serve
+    php artisan serve
 
 ## Open browser
 
 http://127.0.0.1:8000
+
+Enjoy...
 
 # Some features
 
