@@ -2,7 +2,7 @@
 
 (Models are named wrong, started working on Product Cart: But charity was a better suit)
 
-### Word of advice on updating user, password is username on Guest accounts
+### Word of advice on updating Guest user, password is username on Guest accounts
 
 Commands needed to get the applications to run
 
