@@ -1,5 +1,13 @@
 ## About Laravel Open Market Charity
 
+    Laravel : 10
+    Bootstrap : 5
+
+
+#### build with :
+
+    composer create-project --prefer-dist laravel/laravel:^10.0 laravel-10-bootstrap5-vite
+
 (Models are named wrong, started working on Product Cart: But charity was a better suit)
 
 ### Word of advice on updating Guest user, password is username on Guest accounts
