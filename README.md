@@ -41,21 +41,21 @@ Commands needed to get the applications to run
     npm install && npm run dev
     php artisan serve
 
-## Open browser
+### Open browser
 
 http://127.0.0.1:8000
 
 Enjoy...
 
-# Some features
+## Some features
 
-## Guest Login
+### Guest Login
 
 One click login for looking around
 
 ![guest](public/images/README/guest-login.png)
 
-## Cart
+### Cart
 
 Basic cart, Add to Cart and Remove
 
