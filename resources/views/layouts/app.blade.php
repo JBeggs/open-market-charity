@@ -6,7 +6,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <title>{{ config('app.name', 'Open Market Charity') }}</title>
 
     <!-- Fonts -->
@@ -23,7 +23,7 @@
         }
 
         .photo-gallery p {
-            color:#7d8285;      
+            color:#7d8285;
         }
 
         .photo-gallery h2 {
@@ -65,7 +65,7 @@
             /* background: #F7F7F7; */
         }
         #cards_landscape_wrap-2 .container{
-            padding-top: 0px; 
+            padding-top: 0px;
             padding-bottom: 0px;
         }
         #cards_landscape_wrap-2 a{
@@ -82,10 +82,10 @@
             border-radius: 5px;
         }
         #cards_landscape_wrap-2 .card-flyer .image-box img{
-            -webkit-transition:all .9s ease; 
-            -moz-transition:all .9s ease; 
+            -webkit-transition:all .9s ease;
+            -moz-transition:all .9s ease;
             -o-transition:all .9s ease;
-            -ms-transition:all .9s ease; 
+            -ms-transition:all .9s ease;
             width: 100%;
             height: 100px;
         }
@@ -126,14 +126,14 @@
         #cards_landscape_wrap-2 .card-flyer .text-box p{
             margin-top: 10px;
             margin-bottom: 0px;
-            padding-bottom: 0px; 
+            padding-bottom: 0px;
             font-size: 14px;
             letter-spacing: 1px;
             color: #000000;
         }
         #cards_landscape_wrap-2 .card-flyer .text-box h6{
             margin-top: 0px;
-            margin-bottom: 4px; 
+            margin-bottom: 4px;
             font-size: 18px;
             font-weight: bold;
             text-transform: uppercase;
@@ -154,11 +154,11 @@
             height: auto;
             height: 100vh;
             border-radius: 0;
-            border: none; 
+            border: none;
             }
 
             .modal.modal-fullscreen .modal-body {
-            overflow-y: auto; 
+            overflow-y: auto;
         }
         .carousel-item {
             height: 20vh;
@@ -180,7 +180,7 @@
             @include('layouts.navigation')
             @include('layouts.hero')
         </div>
-       
+
 
         <main class="py-4">
             @yield('content')
@@ -239,9 +239,9 @@
         if (confirm('Some message')) {
             window.location.replace(url)
         } else {
-            
+
         }
     }
-    
+
 </script>
 </html>
