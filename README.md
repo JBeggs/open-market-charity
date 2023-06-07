@@ -1,6 +1,6 @@
 ## About Laravel Open Market Charity
 
-(Models are named wrong, started working on Product Cart: But charity was a better suite)
+(Models are named wrong, started working on Product Cart: But charity was a better suit)
 
 ### Word of advice on updating user, password is username on Guest accounts
 
